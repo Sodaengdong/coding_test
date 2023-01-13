@@ -15,7 +15,6 @@ public class Baekjoon_1267 {
         int time = sc.nextInt();
         y += (time/30)+1;
         m += (time/60)+1;
-
     }
 
     if (10*y<15*m) {
