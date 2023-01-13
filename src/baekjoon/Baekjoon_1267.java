@@ -11,7 +11,7 @@ public class Baekjoon_1267 {
     int y = 0;
     int m = 0;
 
-    for (int i =0; i<num; i++) {
+    for (int i=0; i<num; i++) {
         int time = sc.nextInt();
         y += (time/30)+1;
         m += (time/60)+1;
