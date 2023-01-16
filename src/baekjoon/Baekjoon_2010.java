@@ -11,7 +11,6 @@ public class Baekjoon_2010 {
         int sum = 0;
 
         for (int i = 0; i<multitap; i++) {
-
             int num = sc.nextInt();
             sum += num-1;
         }
