@@ -19,7 +19,6 @@ public class Baekjoon_2460 {
             sum += b;
 
             if (sum>max) max = sum;
-
         }
         System.out.println(max);
     }
