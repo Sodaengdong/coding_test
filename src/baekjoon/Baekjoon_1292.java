@@ -13,7 +13,7 @@ public class Baekjoon_1292 {
         int index = 0;
         int sum = 0;
 
-        for (int i = 1; i < b; i++) {
+        for (int i = 1; i <= b; i++) {
             for (int j = 0; j < i; j++) {
                if (index == b) break;
                array[index++] = i;
